@@ -1,0 +1,10 @@
+.container{
+    display: grid;
+    grid-template-columns: 20% 20% 30%;
+    background-color: yellowgreen;
+
+}
+
+.grid1{
+    color: red;
+}

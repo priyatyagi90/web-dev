@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+  }
+  
+
+.navbar{
+    background-color: #0f1111;
+    height: 60px;
+    width: 1800px;
+    display: flex;
+    justify-content: center;   
+    justify-content: space-evenly;
+    align-items: center;  
+     
+  
+
+}
+
+.nav_logo img{
+    height: 50px;
+    width: 80px;
+    margin-left: 10px;
+    
+}  
+
+
+.address{
+      margin-left: 15px;
+      height: 50px;
+      width: 240px;
+      color: white;
+}
+.address .div1{
+    height: 15px;
+    width: 200px;
+    font-size: 13px;
+    color: white;
+}
+
+/* .loc_icon {
+    height: 50px;
+    height: 50px;
+    color: white;
+} */
+
+/* .nav_search input{
+    width: 400px;
+    height: 27px;
+    color: white;
+}  */
+
+/* when we are targeting child element selector we donnot use (.) */
+.search_input input{
+    width: 400px;
+    height: 27px;
+    color: white;
+}
+
+
+.search_icon i{
+    height: 15px;
+    width: 20px;
+} 
+
+.sign_in {
+    height: 50px;
+    width: 155px;
+    margin-left: 15px;
+    color: white;
+}
+
+
+/* 
+but when we are targeting child class selector we hvae to  use (.) in child class */
+.sign_in .sign_in1{
+     font-size: 13px;
+}
+
+.sign_in .sign_in2::after {
+    content: '▼'; 
+    font-size: 10px; 
+    margin-left: 3px; 
+    color: #ffffff; 
+}
+
+
+ .orders{
+    height: 50px;
+    width: 150px;
+    color: white;
+    margin-left: 15px;
+}
+
+ .orders .orders1{
+    font-size: 13px;
+
+} 
+ 
+.cart {
+    height: 50px;
+    width: 70px;
+    color: white;
+    
+}
+
+.cart .cart_logo{
+    height: 40px;
+    width: 50px;
+    
+}
+
+
+.nav_panel{
+    height: 50px;
+    width: 1800px;
+    background-color: #232F3E;
+}
+
+.nav_panel .nav_options{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    width: 60%;
+    color: white;
+}

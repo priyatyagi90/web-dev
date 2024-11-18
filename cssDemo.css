@@ -1,0 +1,36 @@
+/* universal selector */
+*{
+    margin: 2px;
+    padding: 2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* elements selector-selects all the p tag */
+p{
+
+    color:blue;
+    
+}
+
+/* class selector */
+.firstDiv{
+    color:brown;
+    font-weight: 100;
+    
+}
+
+/* we can apply property to a specific element in a div */
+.firstDiv  h1{
+    color: purple;
+}
+
+.firstList{
+    color:blueviolet;
+}
+
+/* grouping selector
+ if we want to apply same property to the elements of the whole page which are under main div  so we use this selector */
+h1 , firstDiv{
+    color: red;
+
+}
